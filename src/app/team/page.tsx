@@ -66,13 +66,13 @@ export default function TeamPage() {
             name: "Abhinivesh Bajpai",
             role: "Founding Engineer & Marketing Lead",
             education: "Bachelors in Chemical Engineering @ Indian Institute of Technology, Delhi",
-            image: "/images/naman.jpg"
+            image: "/images/abhinivesh.jpg"
         },
         {
             name: "Linga Reddy Gudisha",
             role: "AWS Lead & Product Manager",
             education: "Masters in Computer Science @ Florida State University",
-            image: "/images/naman.jpg"
+            image: "/images/linga.jpg"
         }
     ];
 
