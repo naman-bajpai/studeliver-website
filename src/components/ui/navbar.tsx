@@ -20,10 +20,10 @@ const Navbar = () => {
                 {/* Desktop Nav */}
                 <nav className="hidden md:flex space-x-8">
                     {[
-                        ['Home', '#features'],
-                        ['Our Team', '#pricing'],
-                        ['Invest', '#about'],
-                        ['Contact us', '#contact']
+                        ['Home', '/'],
+                        ['Our Team', '/team'],
+                        ['Invest', '/invest'],
+                        ['Contact us', '/contact']
                     ].map(([title, url]) => (
                         <Link key={title} href={url} className="group relative">
                             <span className="text-gray-700 hover:text-blue-600 transition-colors">

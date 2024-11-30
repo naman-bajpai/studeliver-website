@@ -4,7 +4,7 @@ export function DotBackgroundDemo() {
   return (
     <div
       className="h-[50rem] w-full relative flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: `url(/images/homebanner.png)` }} 
+      style={{ backgroundImage: `url(/images/STUDENT.png)` }} 
     >
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-white dark:bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
 
