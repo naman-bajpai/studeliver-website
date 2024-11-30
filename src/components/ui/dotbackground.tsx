@@ -1,10 +1,10 @@
 import React from "react";
-
+import Link from 'next/link';
 export function DotBackgroundDemo() {
   return (
     <div
       className="h-[50rem] w-full relative flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: `url(/images/STUDENT.png)` }} 
+      style={{ backgroundImage: `url(/images/STUDENT.png)` }}
     >
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-white dark:bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
 
@@ -16,7 +16,9 @@ export function DotBackgroundDemo() {
           aria-label="Learn more about Peer to Peer Delivery"
           className="px-6 py-3 bg-blue-700 text-white rounded-full text-lg transition duration-300 hover:bg-white dark:bg-slate-800 dark:hover:bg-slate-700 hover:text-blue-600"
         >
-          Learn More
+          <Link href="/learn">
+            Learn More
+          </Link>
         </button>
       </div>
     </div>
