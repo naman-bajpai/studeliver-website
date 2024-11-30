@@ -1,5 +1,5 @@
 /** @jsxImportSource react */
-import React, { JSX } from "react";
+import React from "react";
 import { Spotlight } from "../ui/spotlight";
 import { TextGenerateEffect } from "./text-generate-effect";
 
